@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SyntaxWear - A marca de roupas e estilo essencial para desenvolvedores e devs.">
+  <title>SyntaxWear | Vestindo o Futuro da Programação</title>
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="./css/base.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       CABEÇALHO DA PÁGINA (HEADER)
+       ========================================== -->
+  <header class="header">
+    <div class="header-container">
+      <!-- Logo da Marca -->
+      <a href="index.html" class="logo">
+        <span class="logo-code">&lt;/&gt;</span>
+        <span>Syntax<span class="logo-highlight">Wear</span></span>
+      </a>
+
+      <!-- Menu de Navegação Principal -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Início</a></li>
+          <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+          <li><a href="#lancamentos" class="nav-link">Lançamentos</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ações do Cabeçalho (Carrinho) -->
+      <div class="header-actions">
+        <a href="carrinho.html" class="cart-icon-btn">
+          🛒 Carrinho <span class="cart-badge">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       BANNER PRINCIPAL (HERO)
+       ========================================== -->
+  <section class="hero">
+    <div class="hero-container">
+      <span class="hero-tag">const estilo = 'syntaxwear';</span>
+      <h1 class="hero-title">
+        Vista seu código com <span class="hero-title-gradient">estilo e atitude</span>.
+      </h1>
+      <p class="hero-subtitle">
+        Roupas e acessórios exclusivos criados por devs, para devs. Qualidade premium para suas maratonas de código.
+      </p>
+      <a href="produtos.html" class="btn-primary">
+        Explorar Coleção &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SEÇÃO DE PRODUTOS EM DESTAQUE
+       ========================================== -->
+  <main class="section" id="lancamentos">
+    <h2 class="section-title">Produtos em Destaque</h2>
+    <p class="section-subtitle">Confira os itens mais populares da nossa comunidade.</p>
+
+    <div class="products-grid">
+      
+      <!-- Card Produto 1 -->
+      <article class="product-card">
+        <div class="product-image-wrapper">
+          <span class="product-badge">Novo</span>
+          <span class="product-placeholder-icon">👕</span>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Camisetas</span>
+          <h3 class="product-name">Camiseta "Hello World" Dark</h3>
+          <p class="product-price">R$ 89,90</p>
+          <button class="btn-card">Adicionar ao Carrinho</button>
+        </div>
+      </article>
+
+      <!-- Card Produto 2 -->
+      <article class="product-card">
+        <div class="product-image-wrapper">
+          <span class="product-badge">Popular</span>
+          <span class="product-placeholder-icon">🧥</span>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Moletons</span>
+          <h3 class="product-name">Moletom "FullStack Overflow"</h3>
+          <p class="product-price">R$ 199,90</p>
+          <button class="btn-card">Adicionar ao Carrinho</button>
+        </div>
+      </article>
+
+      <!-- Card Produto 3 -->
+      <article class="product-card">
+        <div class="product-image-wrapper">
+          <span class="product-placeholder-icon">🧢</span>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Acessórios</span>
+          <h3 class="product-name">Boné Git Commit --amend</h3>
+          <p class="product-price">R$ 69,90</p>
+          <button class="btn-card">Adicionar ao Carrinho</button>
+        </div>
+      </article>
+
+      <!-- Card Produto 4 -->
+      <article class="product-card">
+        <div class="product-image-wrapper">
+          <span class="product-placeholder-icon">☕</span>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Canecas</span>
+          <h3 class="product-name">Caneca "Turn Coffee into Code"</h3>
+          <p class="product-price">R$ 49,90</p>
+          <button class="btn-card">Adicionar ao Carrinho</button>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- ==========================================
+       RODAPÉ DA PÁGINA (FOOTER)
+       ========================================== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-code">&lt;/&gt;</span>
+          <span>Syntax<span class="logo-highlight">Wear</span></span>
+        </div>
+        <p>A loja oficial do desenvolvedor moderno. Do front-end ao back-end, vestimos sua paixão por tecnologia.</p>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Todos os Produtos</a></li>
+          <li><a href="carrinho.html">Seu Carrinho</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Categorias</h4>
+        <ul class="footer-links">
+          <li><a href="#">Camisetas Tech</a></li>
+          <li><a href="#">Moletons & Jackets</a></li>
+          <li><a href="#">Canecas & Copos</a></li>
+          <li><a href="#">Acessórios & Stickers</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Ajuda & Suporte</h4>
+        <ul class="footer-links">
+          <li><a href="contato.html">Fale Conosco</a></li>
+          <li><a href="#">Envio & Entrega</a></li>
+          <li><a href="#">Trocas e Devoluções</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 SyntaxWear. Todos os direitos reservados. Projeto Dev-Quest.</p>
+      <p>Feito com HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
