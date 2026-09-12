@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Reset CSS - Baseado no "Modern CSS Reset" de Andy Bell
+   ========================================================================== */
+
+/* 1. Aplica o box-sizing: border-box em todos os elementos e pseudo-elementos.
+   Isso faz com que o padding e a borda não aumentem o tamanho total do elemento. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove as margens e preenchimentos externos padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Evita que navegadores mobile aumentem o tamanho do texto automaticamente */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* 4. Remove estilos de lista apenas quando usamos role="list" ou listas sem estilo.
+   Isso preserva a acessibilidade para leitores de tela caso precise. */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* 5. Configurações padrão para o corpo (body) da página */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Melhora o espaçamento de linha e quebra de texto em títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+/* 7. Faz com que links sem classe herdem a cor e tenham decoração legível */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* 8. Torna imagens e elementos de mídia responsivos por padrão */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 9. Faz campos de formulário e botões herdarem a tipografia do site */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 10. Evita que textareas sem o atributo rows fiquem minúsculos */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* 11. Adiciona uma margem de rolagem confortável ao navegar por âncoras (:target) */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* 12. Respeita a preferência do usuário por redução de movimento/animações (acessibilidade) */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
