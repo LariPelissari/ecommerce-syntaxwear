@@ -55,6 +55,14 @@ a:not([class]) {
   color: currentColor;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,ol {
+  list-style: none;
+}
+
 /* 8. Torna imagens e elementos de mídia responsivos por padrão */
 img,
 picture,
