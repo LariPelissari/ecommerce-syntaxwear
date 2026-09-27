@@ -61,6 +61,8 @@ a {
 
 ul,ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* 8. Torna imagens e elementos de mídia responsivos por padrão */

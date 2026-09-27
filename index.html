@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./css/components/hero.css">
   <link rel="stylesheet" href="./css/components/product-category.css">
   <link rel="stylesheet" href="./css/components/product-grid.css">
+  <link rel="stylesheet" href="./css/components/footer.css">
 </head>
 
 <body>
@@ -107,7 +108,7 @@
     <!-- 4. Grid de Produtos em Destaque -->
     <section class="grid-section">
       <!-- Grid com os cartões de produtos -->
-       <div class="card top1">
+      <div class="card top1">
         <div class="top1-content">
           <h3 class="card-title">Krypton One</h3>
           <p class="card-subtitle">Estilo urbano com atitude</p>
@@ -116,18 +117,82 @@
             <a href="#" class="btn btn-outline">Masculino</a>
           </div>
         </div>
-       </div>
-       <div class="card top2"></div>
-       <div class="card midL"></div>
-       <div class="card midR"></div>
-       <div class="card bottomL"></div>
-       <div class="card bottomR"></div>
+      </div>
+      <div class="card top2"></div>
+      <div class="card midL"></div>
+      <div class="card midR"></div>
+      <div class="card bottomL"></div>
+      <div class="card bottomR"></div>
     </section>
   </main>
 
   <!-- 5. Rodapé: Informações de Contato e Links -->
   <footer class="footer">
-    <!-- Informações de contato e links de rodapé -->
+    <div class="footer-content">
+      <div class="footer-right">
+        <form class="footer-newsletter" action="#" method="get">
+          <label for="footer-email">Inscreva-se em nosso e-mail</label>
+          <input id="footer-email" name="email" type="email" placeholder="email@email.com">
+        </form>
+
+        <div class="footer-social">
+          <span>Redes sociais</span>
+          <ul>
+            <li><a href="#"><img src="./images/icons/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="./images/icons/whatsapp.svg" alt="WhatsApp"></a></li>
+            <li><a href="#"><img src="./images/icons/tiktok.svg" alt="TikTok"></a></li>
+            <li><a href="#"><img src="./images/icons/facebook.svg" alt="Facebook"></a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <strong>Masculino</strong>
+            <ul>
+              <li><a href="#">Casual</a></li>
+              <li><a href="#">Esporte</a></li>
+              <li><a href="#">Moderno</a></li>
+              <li><a href="#">Futurista</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Feminino</strong>
+            <ul>
+              <li><a href="#">Casual</a></li>
+              <li><a href="#">Esporte</a></li>
+              <li><a href="#">Moderno</a></li>
+              <li><a href="#">Futurista</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Outlet</strong>
+            <ul>
+              <li><a href="#">Masculino</a></li>
+              <li><a href="#">Feminino</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Nossas lojas</strong>
+            <ul>
+              <li><a href="#">Loja física</a></li>
+              <li><a href="#">Loja online</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Sobre</strong>
+            <ul>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Missão</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <hr />
+    <div class="footer-bottom">
+      Copyright. All Rights Reserved
+    </div>
   </footer>
 </body>
 
