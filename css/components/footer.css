@@ -84,3 +84,25 @@
     text-align: center;
     font-size: 1.25rem;
 }
+
+@media (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-social ul {
+        gap: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+}
